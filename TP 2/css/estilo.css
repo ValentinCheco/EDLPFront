@@ -5,17 +5,24 @@ h2 {font-style: oblique; text-decoration:underline;}
 .parrafo1 {color: black;font-size: 30px}
 .parrafo2 {color: #330066;font-size: 20px}
 .parrafo3 {color: #330066; font-size: 20px}
-.lista {font-size: 25px}
+.lista:hover {font-size: 25px}
 body {background-image: url(../fondo/cocinar.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-attachment: fixed; margin: 0}
 .parte1 {background-color: #EC7063}
-.parte2 {background-color: #EC7063}
+.parte2 {background-color: #EC7063; font-size: 20px}
 .parte3 {background-color: #EC7063}
 .parte4 {background-color: #EC7063}
-header {background-color:
-}
 section {background-color: #EC7063 ; width: 48%; float: left; margin: 1%; border: 3px solid black; box-sizing: border-box;height: 1100px; overflow: auto;}
 
 aside {background-color: #EC7063; width: 48%; float: left;margin: 1%; border: 3px solid black; box-sizing: border-box; height: auto;height: 1100px;overflow: auto;;}
 
 footer {clear: both; text-align: center;}
-.navegador {text-align: center;}
+.navegador {text-align: center}
+.navegadores:hover {font-size: 20px}
+.ingrediente1:hover {font-size: 20px}
+.preparacion:hover {font-size: 20px}
+.imagentaco:hover {
+  width: 500px;
+  border-radius: 50%;
+  border: 5px solid black
+
+}
