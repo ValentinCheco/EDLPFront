@@ -28,3 +28,16 @@ header {border-radius: 3em}
   .video {width: 25rem;
   display: flex;
 justify-content: space-between;}
+@media (max-width 650px){
+  header {color:white}
+}
+@media (min-width 650px) {
+ .imagentaco {display: none;}
+}
+@media (max-width 650px){
+  section {color:white}
+}
+@media (min-width 600px){
+.video {display: none;}  
+
+}
